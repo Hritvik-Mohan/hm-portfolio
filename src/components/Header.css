@@ -1,0 +1,30 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name > h3 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.name > p {
+    margin-top: 0.625rem;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.links > .icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.links i {
+    font-size: 1.5rem;
+}
+
+.resume {
+    margin-top: 0.625rem;
+    display: flex;
+    justify-content: end;
+}
