@@ -19,7 +19,7 @@ function App() {
       <Header />
       <section>
       <h2>Projects</h2>
-        {projectElement}
+        <div>{projectElement}</div>
       </section>
     </div>
   )
