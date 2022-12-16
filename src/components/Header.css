@@ -4,14 +4,18 @@
 }
 
 .name > h3 {
-    font-size: 3rem;
+    font-size: 2.2rem;
     font-weight: 700;
 }
 
 .name > p {
     margin-top: 0.625rem;
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: 400;
+}
+
+.links {
+    margin-top: 0.2rem;
 }
 
 .links > .icons {
