@@ -1,5 +1,5 @@
 #root {
-  max-width: 1141px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 2rem;
   /* text-align: center; */
@@ -11,3 +11,10 @@ a {
   text-decoration: none;
 }
 
+section {
+  margin-top: 4rem;
+  /* display: flex; */
+  /* flex-wrap:wrap; */
+  gap: 2rem;
+  /* width: 100%; */
+}

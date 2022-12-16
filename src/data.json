@@ -1,0 +1,39 @@
+[
+  {
+    "type": "web app",
+    "stack": "HTML CSS JavaScript ReactJS ImgFlip API",
+    "title": "Meme Generator",
+    "description": "Add your own text and create a new meme.",
+    "platform": "GitHub",
+    "link": "https://github.com/Hritvik-Mohan/meme-generator",
+    "deploy": "https://hm-meme-generator.netlify.app/",
+    "accent": "blue"
+  },
+  {
+    "type": "web app",
+    "stack": "HTML CSS JavaScript ReactJS",
+    "title": "Notes App",
+    "description": "Simple note taking app built using ReactJS.",
+    "platform": "GitHub",
+    "link": "https://github.com/Hritvik-Mohan/Notes",
+    "deploy": "https://hm-note.netlify.app/"
+  },
+  {
+    "type": "web app",
+    "stack": "NodeJS JavaScript MongoDB Stripe HTML CSS EJS",
+    "title": "Auction App",
+    "description": "Online Auction System, an e-commerce application to create and hold auctions on the web",
+    "platform": "GitHub",
+    "link": "https://github.com/Hritvik-Mohan/Auction-Project",
+    "deploy": "https://hackerspace-auctionapp.herokuapp.com/products"
+  },
+  {
+    "type": "UI/UX",
+    "stack": "Figma",
+    "title": "Auction App",
+    "description": "Web app that holds auctions on the internet. UI designed in a minimal fashion for the user to create their own auctions and bid on products.",
+    "platform": "Behance",
+    "link": "https://www.behance.net/gallery/148350933/Auction-App",
+    "deploy": "https://www.behance.net/gallery/148350933/Auction-App"
+  }
+]
