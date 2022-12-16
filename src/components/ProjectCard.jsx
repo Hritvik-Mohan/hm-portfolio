@@ -26,8 +26,8 @@ export default function ProjectCard(props) {
                     {props.project.description}
                 </p>
 
-                <div className='card-project-github'>
-                    <a href={props.project.link}>
+                <div className='card-project-link'>
+                    <a href={props.project.link} style={props.project.buttonCSS}>
                         {props.project.platform}
                     </a>
                 </div>

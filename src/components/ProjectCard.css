@@ -23,6 +23,8 @@
 
 .card-project-stack {
     font-size: 0.54rem;
+    display: flex;
+    justify-content: end;
 }
 
 .card-project-title {
@@ -35,14 +37,20 @@
     font-size: 0.8rem;
 }
 
-.card-project-github {
+.card-project-link {
     margin-top: 0.5rem;
     font-size: 0.8rem;
-    text-decoration: underline;
+    /* text-decoration: underline; */
+    display: flex;
+    justify-content: end;
 }
 
-
-
+.card-project-link > a {
+    /* border: 1px solid #CE195A;
+    color: #CE195A; */
+    padding: 0.5rem;
+    border-radius: 6px;
+}
 
 @media (min-width: 600px) {
     .card-project-stack {

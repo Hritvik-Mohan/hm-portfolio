@@ -12,6 +12,9 @@
     },
     "color": {
       "color": "#690026"
+    },
+    "buttonCSS": {
+      "border": "1px solid #CE195A"
     }
   },
   {
@@ -27,6 +30,9 @@
     },
     "color": {
       "color": "#725200"
+    },
+    "buttonCSS": {
+      "border": "1px solid #C4A146"
     }
   },
   {
@@ -42,6 +48,9 @@
     },
     "color": {
       "color": "#0A0048"
+    },
+    "buttonCSS": {
+      "border": "1px solid #5746C4"
     }
   },
   {
@@ -57,6 +66,9 @@
     },
     "color": {
       "color": "#690026"
+    },
+    "buttonCSS": {
+      "border": "1px solid #CE195A"
     }
   }
 ]
