@@ -1,7 +1,7 @@
 [
   {
     "type": "web app",
-    "stack": "HTML CSS JavaScript ReactJS ImgFlip API",
+    "stack": "ReactJS ImgFlip API",
     "title": "Meme Generator",
     "description": "Add your own text and create a new meme.",
     "platform": "GitHub",
@@ -19,7 +19,7 @@
   },
   {
     "type": "web app",
-    "stack": "HTML CSS JavaScript ReactJS",
+    "stack": "JavaScript ReactJS",
     "title": "Notes App",
     "description": "Simple note taking app built using ReactJS.",
     "platform": "GitHub",
@@ -37,7 +37,7 @@
   },
   {
     "type": "web app",
-    "stack": "NodeJS JavaScript MongoDB Stripe HTML CSS EJS",
+    "stack": "NodeJS MongoDB Stripe CSS EJS",
     "title": "Auction App",
     "description": "Online Auction System, an e-commerce application to create and hold auctions on the web",
     "platform": "GitHub",
