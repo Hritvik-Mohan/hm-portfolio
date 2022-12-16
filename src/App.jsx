@@ -18,6 +18,7 @@ function App() {
     <div className="App">
       <Header />
       <section>
+      <h2>Projects</h2>
         {projectElement}
       </section>
     </div>
