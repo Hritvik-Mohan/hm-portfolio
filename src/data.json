@@ -7,7 +7,12 @@
     "platform": "GitHub",
     "link": "https://github.com/Hritvik-Mohan/meme-generator",
     "deploy": "https://hm-meme-generator.netlify.app/",
-    "accent": "blue"
+    "style": {
+      "border": "2px solid #CE195A"
+    },
+    "color": {
+      "color": "#690026"
+    }
   },
   {
     "type": "web app",
@@ -16,7 +21,13 @@
     "description": "Simple note taking app built using ReactJS.",
     "platform": "GitHub",
     "link": "https://github.com/Hritvik-Mohan/Notes",
-    "deploy": "https://hm-note.netlify.app/"
+    "deploy": "https://hm-note.netlify.app/",
+    "style": {
+      "border": "2px solid #C4A146"
+    },
+    "color": {
+      "color": "#725200"
+    }
   },
   {
     "type": "web app",
@@ -25,7 +36,13 @@
     "description": "Online Auction System, an e-commerce application to create and hold auctions on the web",
     "platform": "GitHub",
     "link": "https://github.com/Hritvik-Mohan/Auction-Project",
-    "deploy": "https://hackerspace-auctionapp.herokuapp.com/products"
+    "deploy": "https://hackerspace-auctionapp.herokuapp.com/products",
+    "style": {
+      "border": "2px solid #5746C4"
+    },
+    "color": {
+      "color": "#0A0048"
+    }
   },
   {
     "type": "UI/UX",
@@ -34,6 +51,12 @@
     "description": "Web app that holds auctions on the internet. UI designed in a minimal fashion for the user to create their own auctions and bid on products.",
     "platform": "Behance",
     "link": "https://www.behance.net/gallery/148350933/Auction-App",
-    "deploy": "https://www.behance.net/gallery/148350933/Auction-App"
+    "deploy": "https://www.behance.net/gallery/148350933/Auction-App",
+    "style": {
+      "border": "2px solid #CE195A"
+    },
+    "color": {
+      "color": "#690026"
+    }
   }
 ]

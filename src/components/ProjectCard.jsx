@@ -3,14 +3,12 @@ import './ProjectCard.css'
 export default function ProjectCard(props) {
     console.log(props)
 
-    let accent = props.project.accent;
-
     return (
         <a href={props.project.deploy}>
-            <div className="card-container" style={{border: {accent}}}>
+            <div className="card-container" style={props.project.style}>
                 <div className="card-project-type-stack">
 
-                    <span className="card-project-type">
+                    <span className="card-project-type" style={props.project.color}>
                         {props.project.type}
                     </span>
                     

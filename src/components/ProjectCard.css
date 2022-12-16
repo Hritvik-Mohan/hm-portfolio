@@ -1,6 +1,6 @@
 
 .card-container {
-    border: 2px solid #CE195A;
+    /* border: 2px solid #CE195A; */
     border-radius: 17px;
     margin-bottom: 2rem;
     padding: 40px;
@@ -14,7 +14,7 @@
 }
 
 .card-project-type {
-    color: #690026;
+    /* color: #690026; */
     text-transform: uppercase;
     font-size: 0.8rem;
     /* lowercase */
@@ -22,7 +22,7 @@
 }
 
 .card-project-stack {
-    font-size: 0.5rem;
+    font-size: 0.54rem;
 }
 
 .card-project-title {
@@ -39,4 +39,13 @@
     margin-top: 0.5rem;
     font-size: 0.8rem;
     text-decoration: underline;
+}
+
+
+
+
+@media (min-width: 600px) {
+    .card-project-stack {
+        font-size: 0.8rem;
+    }
 }
