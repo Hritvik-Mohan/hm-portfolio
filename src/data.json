@@ -42,7 +42,7 @@
     "description": "Online Auction System, an e-commerce application to create and hold auctions on the web",
     "platform": "GitHub",
     "link": "https://github.com/Hritvik-Mohan/Auction-Project",
-    "deploy": "https://hackerspace-auctionapp.herokuapp.com/products",
+    "deploy": "https://auctionapp-4bmz.onrender.com/",
     "style": {
       "border": "2px solid #5746C4"
     },

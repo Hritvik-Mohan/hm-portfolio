@@ -30,12 +30,12 @@ export default function ProjectCard(props) {
 
                 <div className="link-buttons">
                     <div className='card-project-link'>
-                        <a href={props.project.deploy} style={props.project.buttonCSS}>
+                        <a href={props.project.deploy} style={props.project.buttonCSS} target="_blank">
                             Live Project
                         </a>
                     </div>
                     <div className='card-project-link'>
-                        <a href={props.project.link} style={props.project.buttonCSS}>
+                        <a href={props.project.link} style={props.project.buttonCSS} target="_blank">
                             {props.project.platform}
                         </a>
                     </div>
