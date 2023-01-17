@@ -4,7 +4,7 @@ export default function ProjectCard(props) {
     console.log(props)
 
     return (
-        <a href={props.project.deploy}>
+        // < href={props.project.deploy}>
             <div className="card-container" style={props.project.style}>
                 <div className="card-project-type-stack">
 
@@ -26,13 +26,22 @@ export default function ProjectCard(props) {
                     {props.project.description}
                 </p>
 
-                <div className='card-project-link'>
-                    <a href={props.project.link} style={props.project.buttonCSS}>
-                        {props.project.platform}
-                    </a>
+
+
+                <div className="link-buttons">
+                    <div className='card-project-link'>
+                        <a href={props.project.deploy} style={props.project.buttonCSS}>
+                            Live Project
+                        </a>
+                    </div>
+                    <div className='card-project-link'>
+                        <a href={props.project.link} style={props.project.buttonCSS}>
+                            {props.project.platform}
+                        </a>
+                    </div>
                 </div>
 
             </div>
-        </a>
+        // </>
     )
 }

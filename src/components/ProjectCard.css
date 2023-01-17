@@ -57,3 +57,10 @@
         font-size: 0.8rem;
     }
 }
+
+.link-buttons {
+    display: flex;
+    justify-content: end;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
