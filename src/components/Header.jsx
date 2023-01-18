@@ -4,8 +4,11 @@ export default function Header() {
   return (
     <div className="Header">
       <div className="name">
-        <h3>Hi, I'm Hritvik</h3>
-        <p>Frontend Developer</p>
+        <img src="https://pbs.twimg.com/profile_images/1564180600382054400/pQOmGGFo_400x400.jpg" alt="" srcset="" />
+        <div className=''>
+          <h3>Hi, I'm Hritvik</h3>
+          <p>Frontend Developer</p>
+        </div>
       </div>
       <div className="links">
         <div className='icons'>

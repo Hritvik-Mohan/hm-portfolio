@@ -26,8 +26,6 @@ export default function ProjectCard(props) {
                     {props.project.description}
                 </p>
 
-
-
                 <div className="link-buttons">
                     <div className='card-project-link'>
                         <a href={props.project.deploy} style={props.project.buttonCSS} target="_blank">

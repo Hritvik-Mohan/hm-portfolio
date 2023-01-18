@@ -40,3 +40,10 @@ section > h2 {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+.tabs {
+  display: flex;
+  gap: 2rem;
+  /* max-width: 950px; */
+  /* margin: 0 auto; */
+}
