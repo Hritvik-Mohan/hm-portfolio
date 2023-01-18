@@ -48,6 +48,10 @@
     font-weight: 400;
 }
 
+.emoji {
+    display: none;
+}
+
 .links {
     margin-top: 0.2rem;
 }
@@ -83,6 +87,11 @@
 
     .name > div > p {
         font-size: 1rem;
+    }
+
+    .emoji {
+        display: inline-block;
+        margin-left: 0.8rem;
     }
 
     .profile-mod {
