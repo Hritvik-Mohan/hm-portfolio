@@ -2,7 +2,7 @@
   {
     "type": "web app",
     "stack": "Vanilla JavaScript",
-    "title": "Snake Game🐍",
+    "title": "Snake Game 🐍",
     "description": "Simple snake game built using vanilla JavaScript. Submitted this project during the MLH Global Hack Week, Jan'23.",
     "platform": "GitHub",
     "link": "https://github.com/Hritvik-Mohan/Snake-Game-JavaScript",
@@ -20,7 +20,7 @@
   {
     "type": "web app",
     "stack": "Vanilla JavaScript",
-    "title": "Password Generator🔑",
+    "title": "Password Generator 🔑",
     "description": "Generate secure and complex passwords. Submitted this project during the MLH Global Hack Week, Jan'23.",
     "platform": "GitHub",
     "link": "https://github.com/Hritvik-Mohan/password-generator",
@@ -38,7 +38,7 @@
   {
     "type": "web app",
     "stack": "ReactJS ImgFlip API",
-    "title": "Meme Generator🖼️",
+    "title": "Meme Generator 🖼️",
     "description": "Add your own text and create a new meme.",
     "platform": "GitHub",
     "link": "https://github.com/Hritvik-Mohan/meme-generator",
@@ -56,7 +56,7 @@
   {
     "type": "web app",
     "stack": "JavaScript ReactJS",
-    "title": "Notes App📝",
+    "title": "Notes App 📝",
     "description": "Simple note taking app built using ReactJS.",
     "platform": "GitHub",
     "link": "https://github.com/Hritvik-Mohan/Notes",
@@ -74,7 +74,7 @@
   {
     "type": "web app",
     "stack": "NodeJS MongoDB Stripe CSS EJS",
-    "title": "Auction App💵",
+    "title": "Auction App 💵",
     "description": "Online Auction System, an e-commerce application to create and hold auctions on the web",
     "platform": "GitHub",
     "link": "https://github.com/Hritvik-Mohan/Auction-Project",
@@ -92,7 +92,7 @@
   {
     "type": "UI/UX",
     "stack": "Figma",
-    "title": "Auction App💸",
+    "title": "Auction App 💸",
     "description": "Web app that holds auctions on the internet. UI designed in a minimal fashion for the user to create their own auctions and bid on products.",
     "platform": "Behance",
     "link": "https://www.behance.net/gallery/148350933/Auction-App",
