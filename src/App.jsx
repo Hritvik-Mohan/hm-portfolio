@@ -20,7 +20,7 @@ function App() {
       <section>
         <h2 className='tabs'>
           <span>Projects</span>
-          <span>Blogs</span>
+          {/* <span>Blogs</span> */}
         </h2>
         <div>{projectElement}</div>
       </section>

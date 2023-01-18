@@ -1,6 +1,42 @@
 [
   {
     "type": "web app",
+    "stack": "Vanilla JavaScript",
+    "title": "Snake Game",
+    "description": "Simple snake game built using vanilla JavaScript. Submitted this project during the MLH Global Hack Week, Jan'23.",
+    "platform": "GitHub",
+    "link": "https://github.com/Hritvik-Mohan/Snake-Game-JavaScript",
+    "deploy": "https://hritvik-mohan.github.io/Snake-Game-JavaScript/",
+    "style": {
+      "border": "2px solid #53BF9D"
+    },
+    "color": {
+      "color": "#53BF9D"
+    },
+    "buttonCSS": {
+      "border": "1px solid #53BF9D"
+    }
+  },
+  {
+    "type": "web app",
+    "stack": "Vanilla JavaScript",
+    "title": "Password Generator",
+    "description": "Generate secure and complex passwords. Submitted this project during the MLH Global Hack Week, Jan'23.",
+    "platform": "GitHub",
+    "link": "https://github.com/Hritvik-Mohan/password-generator",
+    "deploy": "https://hritvik-mohan.github.io/password-generator/",
+    "style": {
+      "border": "2px solid #764AF1"
+    },
+    "color": {
+      "color": "#764AF1"
+    },
+    "buttonCSS": {
+      "border": "1px solid #764AF1"
+    }
+  },
+  {
+    "type": "web app",
     "stack": "ReactJS ImgFlip API",
     "title": "Meme Generator",
     "description": "Add your own text and create a new meme.",
