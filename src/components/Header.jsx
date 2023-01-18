@@ -2,6 +2,7 @@ import './Header.css'
 
 export default function Header() {
   return (
+    <>
     <div className="Header">
       <div className="name">
         <img src="https://pbs.twimg.com/profile_images/1564180600382054400/pQOmGGFo_400x400.jpg" alt="" srcset="" />
@@ -12,6 +13,9 @@ export default function Header() {
       </div>
       <div className="links">
         <div className='icons'>
+          <div className='profile-icon'>
+            <img className='profile-mod' src="https://pbs.twimg.com/profile_images/1564180600382054400/pQOmGGFo_400x400.jpg" alt="" srcset="" />
+          </div>
           <div>
             <a href="https://github.com/Hritvik-Mohan"><i class="bi bi-github"></i></a>
           </div>
@@ -30,5 +34,6 @@ export default function Header() {
         </div>
       </div>
     </div>
+    </>
   )
 }
