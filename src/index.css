@@ -6,3 +6,14 @@
 
 body {
 }
+
+/* .main-container {
+  max-width: 900px;
+  margin: 0 auto;
+} */
+
+.tabs-heading {
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+  opacity: 0.5;
+}

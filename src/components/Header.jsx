@@ -5,10 +5,12 @@ export default function Header() {
     <>
     <div className="Header">
       <div className="name">
-        <img src="https://pbs.twimg.com/profile_images/1564180600382054400/pQOmGGFo_400x400.jpg" alt="" srcset="" />
+        {/* <img src="https://pbs.twimg.com/profile_images/1564180600382054400/pQOmGGFo_400x400.jpg" alt="" srcset="" /> */}
         <div className=''>
-          <h3>Hi, I'm Hritvik<span className='emoji'>🥤</span></h3>
-          <p>Frontend Developer</p>
+          {/* <h3>Hritvik Mohan</h3> */}
+          <h3>HRITVIK MOHAN</h3>
+          {/* <h3>Hi, I'm Hritvik<span className='emoji'>🥤</span></h3> */}
+          {/* <p>Frontend Developer</p> */}
         </div>
       </div>
       <div className="links">
@@ -30,7 +32,7 @@ export default function Header() {
           </div>
         </div>
         <div className='resume'>
-          <a href='https://drive.google.com/file/d/1H-3U0OWmvIwAfJRYK10pkj5Un-tFX8wA/view?usp=sharing' target="_blank">Resume</a>
+          <a href='https://drive.google.com/file/d/1H-3U0OWmvIwAfJRYK10pkj5Un-tFX8wA/view?usp=sharing' target="_blank">Resume.pdf</a>
         </div>
       </div>
     </div>

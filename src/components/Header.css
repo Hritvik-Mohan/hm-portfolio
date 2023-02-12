@@ -2,8 +2,8 @@
     display: flex;
     justify-content: space-between;
     /* align-items: center; */
-    max-width:950px;
-    margin: 0 auto;
+    /* max-width:950px; */
+    /* margin: 0 auto; */
 }
 
 .name {
@@ -39,7 +39,7 @@
 
 .name > div > h3 {
     font-size: 2.2rem;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .name > div > p {

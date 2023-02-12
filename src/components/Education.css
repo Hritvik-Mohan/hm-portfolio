@@ -1,0 +1,15 @@
+.edu {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.edu-title {
+}
+
+.edu-institute {
+}
+
+.edu-duration {
+    opacity: 0.5;
+}
