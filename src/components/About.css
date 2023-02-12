@@ -6,3 +6,9 @@
     line-height: 1.5;
     align-items: baseline;
 }
+
+.about > h2 {
+    font-weight: 500;
+    color: #5944E4;
+    font-family: ;
+}

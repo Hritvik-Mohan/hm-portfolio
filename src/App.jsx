@@ -6,16 +6,12 @@ import ProjectCard from './components/ProjectCard'
 import About from './components/About'
 import Education from './components/Education'
 import Home from './components/Home'
+import Projects from './components/Projects'
+import Blogs from './components/Blogs'
 
 function App() {
 
-  const projectElement = data.map(project => {
-    return (
-      <div>
-        <ProjectCard className="project-card" project={project}/>
-      </div>
-    )
-  })
+
 
   return (
     <div className="App">
@@ -30,14 +26,15 @@ function App() {
           <Link to="/blogs">Blogs</Link>
           {/* <span>UI UX</span> */}
           <Link to="/education">Education</Link>
-          <Link to="/experience">Experience</Link>
+          {/* <Link to="/experience">Experience</Link> */}
         </h2>
       </section>
       <Routes>
-      <Route exact path='/' element={<Home />} />
-      <Route path='/about' element={<About />} />
-      <Route path='/education' element={<Education />} />
-      <Route className="projects" path='/projects' element={projectElement} />
+        <Route exact path='/' element={<Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/education' element={<Education />} />
+        <Route path='/projects' element={<Projects />} />
+        <Route path='/blogs' element={<Blogs />} />
       </Routes>
       </Router>
     </div>
