@@ -1,13 +1,12 @@
 .about {
     font-size: 1.2rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
     line-height: 1.5;
     align-items: baseline;
+    max-width: 700px;
+    margin: 0 auto;
 }
 
-.about > h2 {
+.bio-heading {
     font-weight: 500;
     color: #5944E4;
     font-size: 3rem;
@@ -15,4 +14,11 @@
 
 .about > img {
     width: 200px;
+}
+
+.bio-container {
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }

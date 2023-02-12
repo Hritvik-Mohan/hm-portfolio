@@ -1,6 +1,6 @@
 import React from 'react'
-import data from "../data.json"
-import ProjectCard from './ProjectCard'
+import data from "../../data.json"
+import ProjectCard from '../ProjectCard/ProjectCard'
 import './Projects.css'
 
 export default function projects() {

@@ -1,15 +1,13 @@
 import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom'
 import './App.css'
-import Header from './components/Header'
-import About from './components/About'
-import Education from './components/Education'
+import Header from './components/Header/Header'
+import About from './components/About/About'
+import Education from './components/Education/Education'
 import Home from './components/Home'
-import Projects from './components/Projects'
-import Blogs from './components/Blogs'
+import Projects from './components//Projects/Projects'
+import Blogs from './components/Blogs/Blogs'
 
 function App() {
-
-
 
   return (
     <div className="App">
