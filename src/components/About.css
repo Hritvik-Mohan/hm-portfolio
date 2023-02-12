@@ -10,5 +10,9 @@
 .about > h2 {
     font-weight: 500;
     color: #5944E4;
-    font-family: ;
+    font-size: 3rem;
+}
+
+.about > img {
+    width: 200px;
 }
