@@ -40,9 +40,13 @@
     display: inline-block;
 }
 
-.name > div > h3 {
+.logo {
     font-size: 1.3rem;
     font-weight: 500;
+}
+
+.logo > span {
+    color: #5944E4;
 }
 
 .name > div > p {
@@ -88,9 +92,9 @@
         /* box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25); */
     }
 
-    .name > div > h3 {
+    .logo {
         font-size: 2.2rem;
-        font-weight: 500;
+        /* font-weight: 500; */
     }
 
     .name > div > p {

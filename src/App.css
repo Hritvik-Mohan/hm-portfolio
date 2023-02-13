@@ -40,6 +40,14 @@ section > h2 {
   flex-wrap: wrap;
   justify-content: flex-start;
 }
+/* 
+.link-active {
+  color: #5944E4;
+}
+
+.link {
+  color: red;
+} */
 
 
 @media (min-width: 930px) {

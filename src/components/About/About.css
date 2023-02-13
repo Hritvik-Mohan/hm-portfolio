@@ -12,8 +12,15 @@
     font-size: 3rem;
 }
 
-.about > img {
-    width: 200px;
+.bio-img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.bio-img-head-wrapper {
+    /* display: flex;
+    align-items: center;
+    gap: 2rem; */
 }
 
 .bio-container {
