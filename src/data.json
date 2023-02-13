@@ -3,7 +3,7 @@
     "type": "web app",
     "stack": "Vanilla JavaScript",
     "title": "Snake Game 🐍",
-    "description": "Simple snake game built using vanilla JavaScript. Submitted this project during the MLH Global Hack Week, Jan'23.",
+    "description": "Simple snake game for desktop, built using vanilla JavaScript. Submitted this project during the MLH Global Hack Week, Jan'23.",
     "platform": "GitHub",
     "link": "https://github.com/Hritvik-Mohan/Snake-Game-JavaScript",
     "deploy": "https://hritvik-mohan.github.io/Snake-Game-JavaScript/",

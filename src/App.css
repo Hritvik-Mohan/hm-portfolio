@@ -61,6 +61,10 @@ section > h2 {
     /* justify-content: center; */
   }
 
+  
+  section > h2 {
+    margin-bottom: 4rem;
+  }
   /* .tabs > span {
     border: 1px #3C79F5 solid;
     padding: 0.4rem 0.8rem;
