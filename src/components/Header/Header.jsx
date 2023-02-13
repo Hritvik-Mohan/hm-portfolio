@@ -13,11 +13,8 @@ export default function Header() {
           {/* <p>Frontend Developer</p> */}
         </div>
       </div>
-      {/* <div className="links">
+      <div className="links">
         <div className='icons'>
-          <div className='profile-icon'>
-            <img className='profile-mod' src="https://pbs.twimg.com/profile_images/1564180600382054400/pQOmGGFo_400x400.jpg" alt="" srcset="" />
-          </div>
           <div>
             <a href="https://github.com/Hritvik-Mohan" target="_blank"><i class="bi bi-github"></i></a>
           </div>
@@ -31,10 +28,10 @@ export default function Header() {
             <a href="https://www.linkedin.com/in/hritvik-mohan-33162b131/" target="_blank"><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
-        <div className='resume'>
+        {/* <div className='resume'>
           <a href='https://drive.google.com/file/d/1H-3U0OWmvIwAfJRYK10pkj5Un-tFX8wA/view?usp=sharing' target="_blank">Resume.pdf</a>
-        </div>
-      </div> */}
+        </div> */}
+      </div>
     </div>
     </>
   )
