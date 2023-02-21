@@ -6,9 +6,9 @@ export default function Header() {
     <div className="Header">
       <div className="name">
         {/* <img src="https://pbs.twimg.com/profile_images/1564180600382054400/pQOmGGFo_400x400.jpg" alt="" srcset="" /> */}
-        <div className=''>
+        <div className='logo-container'>
           {/* <h3>Hritvik Mohan</h3> */}
-          <h3 className='logo'>hm notes</h3>
+          <h3 className='logo'>hritvik</h3>
           {/* <h3>Hi, I'm Hritvik<span className='emoji'>🥤</span></h3> */}
           {/* <p>Frontend Developer</p> */}
         </div>
