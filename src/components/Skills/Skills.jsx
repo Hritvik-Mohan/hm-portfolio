@@ -9,7 +9,10 @@ function Skills() {
               <span className='skill'>JavaScript</span>
               <span className='skill'>HTML</span>
               <span className='skill'>CSS</span>
-              <span className='skill'>Git / GitHub</span>
+              <span className='skill'>Responsive Design</span>
+              <span className='skill'>Git</span>
+              <span className='skill'>GitHub</span>
+              <span className='skill'>Figma</span>
             </div>
     </div>
   )

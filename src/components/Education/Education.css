@@ -11,11 +11,18 @@
 
 .edu-title {
     line-height: 1.5;
+    font-size: 1.5rem;
 }
 
 .edu-institute {
+    font-size: 1.2rem;
+}
+
+.edu-uni {
+    opacity: 0.9;
+    font-size: 1.05rem;
 }
 
 .edu-duration {
-    opacity: 0.5;
+    opacity: 0.4;
 }

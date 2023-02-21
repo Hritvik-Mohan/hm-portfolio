@@ -1,11 +1,13 @@
 
 .card-container {
     /* border: 2px solid #CE195A; */
-    border-radius: 17px;
+    border-radius: 25px;
     /* margin-bottom: 2rem; */
     padding: 40px;
     width: 100%;
     overflow: hidden;
+    line-height: 1.6;
+    letter-spacing: 0.1px;
 }
 
 .card-project-type-stack {
@@ -28,13 +30,13 @@
 }
 
 .card-project-title {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     margin-top: 0.75rem;
     margin-bottom: 0.625rem;
 }
 
 .card-project-description {
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 .card-project-link {
@@ -50,6 +52,8 @@
     color: #CE195A; */
     padding: 0.5rem;
     border-radius: 6px;
+    font-size: 0.8rem;
+    border-radius: 8px;
 }
 
 @media (min-width: 600px) {

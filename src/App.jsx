@@ -11,8 +11,8 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
       <Router>
+      <Header />
       <section className='main-section'>
         <h2 className='tabs'>
           {/* <span>All</span> */}
