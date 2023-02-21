@@ -43,6 +43,7 @@ section > h2 {
 
 .active-tab {
   text-decoration: #5944E4 wavy underline;
+  text-underline-offset: 5px;
 }
 /* 
 .link-active {

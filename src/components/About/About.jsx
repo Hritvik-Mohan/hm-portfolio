@@ -9,7 +9,7 @@ function About() {
         <div className='bio-container'>
             <h2 className='bio-heading'>Hi, I'm Hritvik Mohan.</h2>
             {/* <div className='bio-hr'></div> */}
-            <p>Welcome to my online home. I'm a <span className='bio-bold'>frontend developer</span> and a recent Bachelor of Computer Application grad, 2022, based in Varanasi. I have a strong passion for web development with a knack for design. </p>
+            <p>Welcome to my online home. I'm a <span className='active-tab'>frontend developer</span> and a recent Bachelor of Computer Application grad, 2022, based in Varanasi. I have a strong passion for web development with a knack for design. </p>
             <p>I have experience with various frontend development technologies, including ReactJS, JavaScript, HTML/CSS, and more.</p>
         </div>
       </div>
