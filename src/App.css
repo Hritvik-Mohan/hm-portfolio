@@ -40,6 +40,10 @@ section > h2 {
   flex-wrap: wrap;
   justify-content: flex-start;
 }
+
+.active-tab {
+  text-decoration: #5944E4 wavy underline;
+}
 /* 
 .link-active {
   color: #5944E4;

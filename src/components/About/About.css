@@ -1,9 +1,10 @@
 .about {
     font-size: 1.2rem;
-    line-height: 1.5;
+    line-height: 1.6;
     align-items: baseline;
     max-width: 700px;
     margin: 0 auto;
+    letter-spacing: 0.1px;
 }
 
 .bio-img-text-container {
@@ -43,7 +44,7 @@
 
 .bio-bold {
     font-weight: 500;
-    text-decoration: #5944E4 wavy underline;
+    /* text-decoration: #5944E4 wavy underline; */
 }
 
 @media (min-width: 600px) {

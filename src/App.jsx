@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Link, Routes, NavLink } from 'react-router-dom'
 import './App.css'
 import Header from './components/Header/Header'
 import About from './components/About/About'
@@ -16,12 +16,12 @@ function App() {
       <section className='main-section'>
         <h2 className='tabs'>
           {/* <span>All</span> */}
-          <Link to="/">Home</Link>
+          <NavLink className={({ isActive }) => (isActive ? 'active-tab ' : 'link')} to="/">Home</NavLink>
           {/* <Link to="/about">About</Link> */}
-          <Link to="/projects">Projects</Link>
+          <NavLink className={({ isActive }) => (isActive ? 'active-tab ' : 'link')} to="/projects">Projects</NavLink>
           {/* <Link to="/blogs">Blogs</Link> */}
           {/* <span>UI UX</span> */}
-          <Link to="/education">Education</Link>
+          <NavLink className={({ isActive }) => (isActive ? 'active-tab ' : 'link')} to="/education">Education</NavLink>
           {/* <Link to="/experience">Experience</Link> */}
         </h2>
       </section>
