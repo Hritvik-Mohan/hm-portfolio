@@ -47,6 +47,10 @@
     /* text-decoration: #5944E4 wavy underline; */
 }
 
+.link {
+    background-color: rgb(245, 240, 255);
+}
+
 @media (min-width: 600px) {
     .about {
     }

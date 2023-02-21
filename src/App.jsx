@@ -16,12 +16,12 @@ function App() {
       <section className='main-section'>
         <h2 className='tabs'>
           {/* <span>All</span> */}
-          <NavLink className={({ isActive }) => (isActive ? 'active-tab ' : 'link')} to="/">Home</NavLink>
+          <NavLink className={({ isActive }) => (isActive ? 'active-tab ' : 'tab')} to="/">Home</NavLink>
           {/* <Link to="/about">About</Link> */}
-          <NavLink className={({ isActive }) => (isActive ? 'active-tab ' : 'link')} to="/projects">Projects</NavLink>
+          <NavLink className={({ isActive }) => (isActive ? 'active-tab ' : 'tab')} to="/projects">Portfolio</NavLink>
           {/* <Link to="/blogs">Blogs</Link> */}
           {/* <span>UI UX</span> */}
-          <NavLink className={({ isActive }) => (isActive ? 'active-tab ' : 'link')} to="/education">Education</NavLink>
+          {/* <NavLink className={({ isActive }) => (isActive ? 'active-tab ' : 'tab')} to="/education">Education</NavLink> */}
           {/* <Link to="/experience">Experience</Link> */}
         </h2>
       </section>
