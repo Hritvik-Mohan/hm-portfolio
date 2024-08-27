@@ -7,7 +7,7 @@ function About() {
   return (
     <div className='about'>
       <div className='bio-img-text-container'>
-        <img className='bio-img' src="https://pbs.twimg.com/profile_images/1564180600382054400/pQOmGGFo_400x400.jpg" alt="" />
+        <img className='bio-img' src="https://avatars.githubusercontent.com/u/25386810?v=4" alt="" />
         <div className='bio-container'>
             <h2 className='bio-heading'>Hi, I'm Hritvik Mohan.</h2>
             {/* <div className='bio-hr'></div> */}
