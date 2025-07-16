@@ -18,7 +18,7 @@ function App() {
           {/* <span>All</span> */}
           <NavLink className={({ isActive }) => (isActive ? 'active-tab ' : 'tab')} to="/">Home</NavLink>
           {/* <Link to="/about">About</Link> */}
-          <NavLink className={({ isActive }) => (isActive ? 'active-tab ' : 'tab')} to="/projects">Portfolio</NavLink>
+          {/* <NavLink className={({ isActive }) => (isActive ? 'active-tab ' : 'tab')} to="/projects">Portfolio</NavLink> */}
           {/* <Link to="/blogs">Blogs</Link> */}
           {/* <span>UI UX</span> */}
           {/* <NavLink className={({ isActive }) => (isActive ? 'active-tab ' : 'tab')} to="/education">Education</NavLink> */}
