@@ -23,6 +23,10 @@
 }
 
 /* Category color variants */
+.programmingLanguages {
+  background-color: #636e72; /* grey-blue */
+}
+
 .frontend {
   background-color: #6C5CE7; /* purple */
 }

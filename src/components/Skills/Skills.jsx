@@ -1,11 +1,27 @@
 import './Skills.css'
 
 const categorizedSkills = {
-  frontend: ['ReactJS', 'Next.js', 'JavaScript', 'HTML', 'CSS', 'Responsive Design', 'Tailwind CSS', 'Editor.js', 'Blockly'],
-  backend: ['Node.js', 'Express.js', 'Django', 'REST APIs', 'Google OAuth'],
-  devops: ['Docker', 'NGINX', 'GitHub Actions', 'AWS EC2', 'AWS ECR', 'AWS CodeBuild'],
-  tools: ['Git', 'GitHub', 'Postman', 'OpenAPI', 'Figma'],
-  others: ['Technical Documentation', 'System Design', 'Code Reviews', 'Interviewing']
+  programmingLanguages: [
+    'JavaScript', 'TypeScript', 'NodeJS', 'Java', 'SQL', 'HTML', 'CSS'
+  ],
+  frontend: [
+    'ReactJS', 'Next.js', 'ReactNative', 'Expo', 'JavaScript', 'HTML', 'CSS',
+    'Responsive Design', 'Tailwind CSS', 'Bootstrap', 'Editor.js', 'Blockly'
+  ],
+  backend: [
+    'Node.js', 'Express.js', 'Django', 'REST APIs', 'Google OAuth',
+    'WebSockets', 'PrismaORM', 'PostgreSQL'
+  ],
+  devops: [
+    'Docker', 'NGINX', 'GitHub Actions', 'AWS EC2', 'AWS ECR', 'AWS CodeBuild', 'AWS'
+  ],
+  tools: [
+    'Git', 'GitHub', 'Postman', 'OpenAPI', 'Figma', 'Liquid', 'Cypress'
+  ],
+  others: [
+    'Technical Documentation', 'System Design', 'Code Reviews', 
+    'Interviewing', 'Technical Writing', 'Project Management', 'Research'
+  ]
 }
 
 function Skills() {
