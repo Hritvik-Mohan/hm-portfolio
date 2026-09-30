@@ -2,102 +2,94 @@ import "./Experience.css";
 
 function Experience() {
   return (
-    <div className="edu">
+    <div className="edu" id="experience">
       <h2 className="tabs-heading">Experience</h2>
 
       <div>
         <h2 className="edu-title">Newton School</h2>
-        <p className="edu-institute">SDE | Technical Program Manager</p>
-        <p className="edu-uni">Academics – Full Stack Development</p>
-        <p className="edu-duration">2022 – Present</p>
+        <p className="edu-institute">Software Development Engineer (SDE 1)</p>
+        <p className="edu-uni">Bengaluru, India</p>
+        <p className="edu-duration">Mar 2025 – Present</p>
 
         <ul className="edu-list">
           <li>
-            Built a <strong>robust CI/CD pipeline</strong> using Docker, GitHub
-            Actions, NGINX, and AWS (EC2, ECR, CodeBuild) for internal platforms
-            and student projects.
+            I'm the main engineer behind an internal system design simulator
+            (built with <strong>Electron and TypeScript</strong>) - you draw
+            out an architecture, hit run, and it simulates real traffic through
+            it so you can catch bottlenecks and failures before production
+            does. I built the core engine myself: the event loop, request
+            routing, and the pipeline that tracks metrics and traces.
           </li>
           <li>
-            Contributed to the architecture and backend development of{" "}
-            <strong>Zuvees</strong>, a project leveraging Shopify’s composable
-            architecture.
+            I implemented several real-world load-balancing strategies -
+            least response time, consistent hashing, header-based routing -
+            so the simulator reflects how production traffic is actually handled.
           </li>
           <li>
-            Improved <strong>container resilience</strong> on AWS by
-            implementing health checks, restart policies, and error handling.
+            I modeled fault tolerance in depth: different ways a service can
+            fail, an automatic detector for single points of failure, and
+            rate limiting to keep the system stable under load.
           </li>
           <li>
-            Acted as a <strong>code reviewer</strong> for two production-grade
-            projects, ensuring performance, quality, and architectural
-            soundness.
+            I built the observability layer - latency tracking, cache
+            performance, distributed tracing - and verified the numbers held
+            up against known queueing-theory results.
           </li>
           <li>
-            Authored detailed <strong>technical documents</strong> – system
-            design, API docs, deployment guides, and developer handbooks – for
-            smooth onboarding and maintainability.
+            To keep the simulator fast at very high traffic volumes, I wrote a
+            native C++ addon and used low-level techniques like shared memory
+            buffers and worker-side batching.
           </li>
           <li>
-            Led a 6-member team to build a <strong>web scraping app</strong> (in
-            collaboration with IIT Roorkee) that aggregates data on government
-            schemes, jobs, and scholarships using Next.js, Django, Puppeteer,
-            Docker, and AWS.
+            I've written 200+ technical specs and design docs that shaped how
+            the product was built, on top of making our Dockerized AWS
+            services self-healing and building out their CI/CD pipelines.
           </li>
           <li>
-            Developed <strong>NS Trinity</strong>, an AI-powered React Native
-            app for educators to track and manage student queries via text and
-            audio.
+            I led a 6-person team building a data-aggregation platform in
+            partnership with <strong>IIT Roorkee</strong>.
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h2 className="edu-title">Newton School</h2>
+        <p className="edu-institute">Technical Program Manager</p>
+        <p className="edu-uni">Bengaluru, India</p>
+        <p className="edu-duration">Mar 2023 – Mar 2025</p>
+
+        <ul className="edu-list">
+          <li>
+            I built <strong>NS Trinity</strong>, an AI-assisted app that helps
+            teachers track and manage student questions from text and audio.
           </li>
           <li>
-            Built <strong>block-based learning tools and games</strong> using
-            Editor.js, Blockly, and Next.js to power interactive academic
-            content.
+            I reviewed code on two production projects and helped shape the
+            architecture of <strong>Zuvees</strong>, a Shopify-based platform.
           </li>
           <li>
-            Created 200+ JavaScript/ReactJS challenges, reviewed 500+ MCQs,
-            wrote 60+ technical resources, and conducted 76 technical
-            interviews.
+            I ran 76 technical interviews, and created 200+ coding problems
+            and reviewed 500+ assessment questions used in hiring.
           </li>
         </ul>
       </div>
       <div>
         <h2 className="edu-title">Wasty Site (Early-stage Startup)</h2>
-        <p className="edu-institute">Backend Development Intern</p>
+        <p className="edu-institute">Full Stack Developer (Volunteer)</p>
         <p className="edu-uni">Varanasi, India</p>
         <p className="edu-duration">Feb 2022 – Mar 2022</p>
 
         <p className="edu-company-desc">
           <em>
             A social-impact startup aiming to modernize waste collection and
-            disposal in Tier 2 cities of India by creating a digital platform
-            that bridges the gap between local collectors and households,
-            promoting sustainability and efficient logistics.
+            disposal in Tier 2 cities of India by connecting local collectors
+            with households and businesses.
           </em>
         </p>
 
         <ul className="edu-list">
           <li>
-            Contributed to the development of an MVP for a waste management
-            platform that connected local waste collectors with households and
-            small businesses.
-          </li>
-          <li>
-            Designed and implemented core backend APIs using{" "}
-            <strong>Node.js</strong> and <strong>Express</strong>, enabling user
-            registration, role-based access, and request tracking.
-          </li>
-          <li>
-            Integrated <strong>Google OAuth</strong> for seamless user
-            authentication and created paginated endpoints for efficient data
-            loading on the dashboard.
-          </li>
-          <li>
-            Collaborated with frontend developers to design API contracts and
-            ensure consistent data flow across the application.
-          </li>
-          <li>
-            Documented key endpoints and workflows using{" "}
-            <strong>Postman</strong> and OpenAPI for future handoff and
-            scalability.
+            I built the Node.js backend for the app's first prototype,
+            including pagination and Google sign-in.
           </li>
         </ul>
       </div>

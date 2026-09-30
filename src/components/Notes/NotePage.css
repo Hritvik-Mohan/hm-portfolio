@@ -1,0 +1,130 @@
+.note-page {
+  max-width: 700px;
+  margin: 0 auto;
+  padding-bottom: 4rem;
+}
+
+.note-back {
+  display: inline-block;
+  font-size: 0.85rem;
+  opacity: 0.6;
+  margin-bottom: 2rem;
+}
+
+.note-back:hover {
+  opacity: 1;
+}
+
+.note-header {
+  margin-bottom: 2rem;
+}
+
+.notes-item-meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  font-size: 0.85rem;
+}
+
+.notes-item-date {
+  opacity: 0.5;
+}
+
+.notes-item-tag {
+  background-color: var(--surface);
+  border-radius: 12px;
+  padding: 0.2rem 0.7rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  opacity: 0.8;
+}
+
+.note-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.note-content {
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.note-content h1,
+.note-content h2,
+.note-content h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.note-content p,
+.note-content ul,
+.note-content ol,
+.note-content blockquote {
+  margin-bottom: 1.2rem;
+}
+
+.note-content ul,
+.note-content ol {
+  padding-left: 1.4rem;
+}
+
+.note-content a {
+  text-decoration: underline;
+  text-decoration-color: var(--accent);
+}
+
+.note-content code {
+  background-color: var(--surface);
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+.note-content pre {
+  border-radius: 12px;
+  overflow-x: auto;
+  margin-bottom: 1.2rem;
+}
+
+.note-content pre code {
+  background: none;
+  padding: 0;
+}
+
+.note-content table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1.2rem;
+}
+
+.note-content th,
+.note-content td {
+  border: 1px solid var(--border);
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+}
+
+.note-content img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.mermaid-diagram {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.2rem;
+  overflow-x: auto;
+}
+
+.mermaid-error {
+  color: #e05252;
+  background-color: var(--surface);
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  white-space: pre-wrap;
+}
