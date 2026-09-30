@@ -23,7 +23,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['vite.config.js', 'vite-plugins/**/*.js'],
+      files: ['vite.config.js', 'vite-plugins/**/*.js', 'scripts/**/*.js'],
       env: { node: true },
     },
   ],
