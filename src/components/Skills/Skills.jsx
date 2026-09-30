@@ -1,41 +1,54 @@
 import './Skills.css'
 
 const categorizedSkills = {
-  programmingLanguages: [
-    'JavaScript', 'TypeScript', 'NodeJS', 'Java', 'SQL', 'HTML', 'CSS'
+  languages: [
+    'TypeScript', 'JavaScript', 'Node.js', 'Java', 'C++', 'SQL'
   ],
   frontend: [
-    'ReactJS', 'Next.js', 'ReactNative', 'Expo', 'JavaScript', 'HTML', 'CSS',
-    'Responsive Design', 'Tailwind CSS', 'Bootstrap', 'Editor.js', 'Blockly'
+    'React', 'Next.js', 'React Native', 'Electron'
   ],
   backend: [
-    'Node.js', 'Express.js', 'Django', 'REST APIs', 'Google OAuth',
-    'WebSockets', 'PrismaORM', 'PostgreSQL'
+    'Microservices', 'REST APIs', 'WebSockets', 'Express',
+    'Django REST Framework', 'PostgreSQL', 'MongoDB', 'Prisma'
   ],
-  devops: [
-    'Docker', 'NGINX', 'GitHub Actions', 'AWS EC2', 'AWS ECR', 'AWS CodeBuild', 'AWS'
+  cloud: [
+    'AWS (EC2, ECR, CodeBuild)', 'Docker', 'NGINX', 'CI/CD', 'GitHub Actions', 'Git', 'VPCs & Subnets'
   ],
-  tools: [
-    'Git', 'GitHub', 'Postman', 'OpenAPI', 'Figma', 'Liquid', 'Cypress'
+  testing: [
+    'Cypress', 'Distributed Tracing', 'Latency Percentiles (HdrHistogram)'
   ],
-  others: [
-    'Technical Documentation', 'System Design', 'Code Reviews', 
-    'Interviewing', 'Technical Writing', 'Project Management', 'Research'
+  concepts: [
+    'Distributed Systems', 'Fault Tolerance', 'Load Balancing', 'Consistent Hashing',
+    'Rate Limiting', 'Queueing Theory', 'System Design', 'Technical Documentation', 'Interviewing'
   ]
+}
+
+const categoryLabels = {
+  languages: 'Languages',
+  frontend: 'Frontend',
+  backend: 'Backend & Distributed Systems',
+  cloud: 'Cloud & DevOps',
+  testing: 'Testing & Observability',
+  concepts: 'Concepts & Practices'
 }
 
 function Skills() {
   return (
-    <div className='skills'>
+    <div className='skills' id='skills'>
       <h2 className='tabs-heading'>Skills</h2>
-      <div className="skills-container">
-        {Object.entries(categorizedSkills).map(([category, skills]) =>
-          skills.map((skill) => (
-            <span key={skill} className={`skill ${category}`}>
-              {skill}
-            </span>
-          ))
-        )}
+      <div className="skill-groups">
+        {Object.entries(categorizedSkills).map(([category, skills]) => (
+          <div className="skill-group" key={category}>
+            <h3 className="skill-group-label">{categoryLabels[category]}</h3>
+            <div className="skills-container">
+              {skills.map((skill) => (
+                <span key={skill} className="skill">
+                  {skill}
+                </span>
+              ))}
+            </div>
+          </div>
+        ))}
       </div>
     </div>
   )

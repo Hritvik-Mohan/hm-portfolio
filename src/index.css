@@ -4,8 +4,46 @@
   box-sizing: border-box;
 }
 
+:root {
+  --bg: #111113;
+  --text: #f2f2f2;
+  --border: rgba(255, 255, 255, 0.14);
+  --accent: #7c6ff0;
+  --surface: rgba(255, 255, 255, 0.08);
+  --surface-hover: rgba(255, 255, 255, 0.13);
+}
+
+:root[data-theme="light"] {
+  --bg: #ffffff;
+  --text: #111111;
+  --border: rgb(230, 230, 230);
+  --accent: #5944E4;
+  --surface: rgba(0, 0, 0, 0.05);
+  --surface-hover: rgba(0, 0, 0, 0.09);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  
+  background-color: var(--bg);
+  color: var(--text);
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+#skills,
+#experience,
+#education {
+  scroll-margin-top: 4rem;
+}
+
+a:focus-visible,
+.tab:focus-visible,
+.active-tab:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 4px;
 }
 
 /* .main-container {

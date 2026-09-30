@@ -1,11 +1,12 @@
-import { BrowserRouter as Router, Route, Link, Routes, NavLink } from 'react-router-dom'
+import { Suspense, lazy } from 'react'
+import { BrowserRouter as Router, Route, Routes, NavLink } from 'react-router-dom'
 import './App.css'
 import Header from './components/Header/Header'
 import About from './components/About/About'
-import Education from './components/Education/Education'
-import Home from './components/Home'
-import Projects from './components//Projects/Projects'
-import Blogs from './components/Blogs/Blogs'
+import Projects from './components/Projects/Projects'
+import NotesList from './components/Notes/NotesList'
+
+const NotePage = lazy(() => import('./components/Notes/NotePage'))
 
 function App() {
 
@@ -15,24 +16,20 @@ function App() {
       <Header />
       <section className='main-section'>
         <h2 className='tabs'>
-          {/* <span>All</span> */}
-          <NavLink className={({ isActive }) => (isActive ? 'active-tab ' : 'tab')} to="/">Home</NavLink>
-          {/* <Link to="/about">About</Link> */}
-          {/* <NavLink className={({ isActive }) => (isActive ? 'active-tab ' : 'tab')} to="/projects">Portfolio</NavLink> */}
-          {/* <Link to="/blogs">Blogs</Link> */}
-          {/* <span>UI UX</span> */}
-          {/* <NavLink className={({ isActive }) => (isActive ? 'active-tab ' : 'tab')} to="/education">Education</NavLink> */}
-          {/* <Link to="/experience">Experience</Link> */}
+          <NavLink end className={({ isActive }) => (isActive ? 'active-tab ' : 'tab')} to="/">Notes</NavLink>
+          <NavLink className={({ isActive }) => (isActive ? 'active-tab ' : 'tab')} to="/about">About</NavLink>
+          {/* Projects tab hidden until the showcased projects are replaced */}
+          {/* <NavLink className={({ isActive }) => (isActive ? 'active-tab ' : 'tab')} to="/projects">Projects</NavLink> */}
         </h2>
       </section>
-      <Routes>
-        {/* <Route exact path='/' element={<Home />} /> */}
-        <Route exact path='/' element={<About />} />
-        {/* <Route path='/about' element={<About />} /> */}
-        <Route path='/education' element={<Education />} />
-        <Route path='/projects' element={<Projects />} />
-        <Route path='/blogs' element={<Blogs />} />
-      </Routes>
+      <Suspense fallback={null}>
+        <Routes>
+          <Route exact path='/' element={<NotesList />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/projects' element={<Projects />} />
+          <Route path='/notes/:slug' element={<NotePage />} />
+        </Routes>
+      </Suspense>
       </Router>
     </div>
   )

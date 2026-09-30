@@ -11,6 +11,10 @@ node_modules
 dist
 dist-ssr
 *.local
+*.timestamp-*.mjs
+
+# generated mirror of notes/ (source of truth), produced by vite-plugins/notes.js
+public/notes/
 
 # Editor directories and files
 .vscode/*

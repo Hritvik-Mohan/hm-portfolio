@@ -1,8 +1,6 @@
 import './ProjectCard.css'
 
 export default function ProjectCard(props) {
-    console.log(props)
-
     return (
         // < href={props.project.deploy}>
             <div className="card-container" style={props.project.style}>
@@ -28,12 +26,12 @@ export default function ProjectCard(props) {
 
                 <div className="link-buttons">
                     <div className='card-project-link'>
-                        <a href={props.project.deploy} style={props.project.buttonCSS} target="_blank">
+                        <a href={props.project.deploy} style={props.project.buttonCSS} target="_blank" rel="noopener noreferrer">
                             Live Project
                         </a>
                     </div>
                     <div className='card-project-link'>
-                        <a href={props.project.link} style={props.project.buttonCSS} target="_blank">
+                        <a href={props.project.link} style={props.project.buttonCSS} target="_blank" rel="noopener noreferrer">
                             {props.project.platform}
                         </a>
                     </div>

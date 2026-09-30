@@ -32,15 +32,13 @@ hm-portfolio/
 │   └── vite.svg           # Favicon
 ├── src/
 │   ├── components/
-│   │   ├── About/         # About section with bio
-│   │   ├── Blogs/         # Blog posts (if enabled)
-│   │   ├── Education/     # Education background
-│   │   ├── Experience/    # Work experience
+│   │   ├── About/         # Home page: bio + embeds Skills, Experience, Education
+│   │   ├── Education/     # Education background (rendered inside About)
+│   │   ├── Experience/    # Work experience (rendered inside About)
 │   │   ├── Header/        # Navigation header
 │   │   ├── ProjectCard/   # Individual project cards
-│   │   ├── Projects/      # Projects showcase
-│   │   ├── Skills/        # Technical skills
-│   │   └── Home.jsx       # Home component
+│   │   ├── Projects/      # Projects showcase page
+│   │   └── Skills/        # Technical skills (rendered inside About)
 │   ├── App.jsx            # Main application component
 │   ├── data.json          # Project data and content
 │   └── main.jsx           # Application entry point
@@ -136,19 +134,17 @@ Projects are managed in `src/data.json`. Each project follows this structure:
 
 ## 📱 Sections
 
-1. **Home/About**: Personal introduction and bio
-2. **Portfolio**: Interactive project showcase with live demos
-3. **Skills**: Technical skills organized by category
-4. **Education**: Academic background
-5. **Experience**: Professional experience
+The header nav has two pages:
+
+1. **Home** (`/`): Bio, plus embedded Skills, Experience, and Education sub-sections
+2. **Projects** (`/projects`): Interactive project showcase with live demos
 
 ## 🌐 Deployment
 
-The project is configured for Netlify deployment:
+The live site is hosted on Vercel ([hritvik.vercel.app](https://hritvik.vercel.app/)). A `public/_redirects` file for Netlify-style SPA routing is also present in the repo — if you deploy to Netlify instead, it'll pick that up; on Vercel it's unused.
 
 1. Build the project: `npm run build`
 2. Deploy the `dist` folder to your hosting provider
-3. The `_redirects` file ensures proper SPA routing
 
 ## 🤝 Contributing
 
