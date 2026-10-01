@@ -16,8 +16,12 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
+      # Pushes via a deploy key: the ruleset on main lets deploy keys bypass
+      # the required "lint-and-build" check, which GITHUB_TOKEN can't.
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ssh-key: ${{ secrets.NOTES_SYNC_DEPLOY_KEY }}
 
       - name: Set up Node
         uses: actions/setup-node@v4
