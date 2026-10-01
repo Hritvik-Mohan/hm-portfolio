@@ -6,7 +6,7 @@ export default function NotesList() {
   const [posts, setPosts] = useState(null)
 
   useEffect(() => {
-    fetch('/notes/manifest.json')
+    fetch('/notes-data/manifest.json')
       .then((res) => res.json())
       .then(setPosts)
       .catch(() => setPosts([]))

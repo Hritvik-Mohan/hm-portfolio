@@ -1,5 +1,5 @@
 import { Suspense, lazy } from 'react'
-import { BrowserRouter as Router, Route, Routes, NavLink } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Routes, NavLink, Navigate } from 'react-router-dom'
 import './App.css'
 import Header from './components/Header/Header'
 import About from './components/About/About'
@@ -27,6 +27,7 @@ function App() {
           <Route exact path='/' element={<NotesList />} />
           <Route path='/about' element={<About />} />
           <Route path='/projects' element={<Projects />} />
+          <Route path='/notes' element={<Navigate to='/' replace />} />
           <Route path='/notes/:slug' element={<NotePage />} />
         </Routes>
       </Suspense>

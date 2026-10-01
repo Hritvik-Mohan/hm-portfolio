@@ -74,7 +74,7 @@ n2m.setCustomTransformer('image', async (block) => {
   const fileName = `image-${currentImages.files.length + 1}${ext.toLowerCase()}`
   currentImages.files.push({ fileName, data: Buffer.from(await res.arrayBuffer()) })
 
-  return `![${caption}](/notes/${currentImages.slug}/${fileName})`
+  return `![${caption}](/notes-data/${currentImages.slug}/${fileName})`
 })
 
 function pageSlug(page) {
