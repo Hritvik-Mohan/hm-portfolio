@@ -4,7 +4,7 @@ import path from 'node:path'
 import matter from 'gray-matter'
 
 const NOTES_SRC = 'notes'
-const NOTES_OUT = path.join('public', 'notes')
+const NOTES_OUT = path.join('public', 'notes-data')
 
 async function syncNotes(root) {
   const srcDir = path.join(root, NOTES_SRC)

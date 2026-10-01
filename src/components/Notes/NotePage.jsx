@@ -24,7 +24,7 @@ export default function NotePage() {
     setContent(null)
     setNotFound(false)
 
-    fetch('/notes/manifest.json')
+    fetch('/notes-data/manifest.json')
       .then((res) => res.json())
       .then((posts) => {
         const post = posts.find((p) => p.slug === slug)
@@ -36,7 +36,7 @@ export default function NotePage() {
       })
       .catch(() => setNotFound(true))
 
-    fetch(`/notes/${slug}/index.md`)
+    fetch(`/notes-data/${slug}/index.md`)
       .then((res) => {
         if (!res.ok) throw new Error('not found')
         return res.text()

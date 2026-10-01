@@ -14,7 +14,7 @@ dist-ssr
 *.timestamp-*.mjs
 
 # generated mirror of notes/ (source of truth), produced by vite-plugins/notes.js
-public/notes/
+public/notes-data/
 
 # Editor directories and files
 .vscode/*
